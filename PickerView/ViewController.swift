@@ -47,7 +47,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return imageFileName[row]
     }
     
-    // pickerView에서 선택한 이미지를 이미지 뷰에 나타냄
+    // pickerView에서 선택된 이미지를 이미지 뷰에 나타냄
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         lblImageFileName.text = imageFileName[row]
         imageView.image = imageArray[row]
