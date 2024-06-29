@@ -9,8 +9,8 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let MAX_ARRAY_NUM = 10
-    let PICKER_VIEW_COLUMN = 1
+    let MAX_ARRAY_NUM = 10  // 이미지 파일명 저장하는 배열의 최대 크기
+    let PICKER_VIEW_COLUMN = 1  // 피커 뷰의 열의 개수
     let PICKER_VIEW_HEIGHT: CGFloat = 80
     var imageArray = [UIImage?]() // UIImage 타입의 배열 선언
     var imageFileName = ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","7.jpg","8.jpg","9.jpg","10.jpg"]
