@@ -53,7 +53,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 //        return imageFileName[row]
 //    }
     
-    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {    // 피커 뷰의 각 열에 이미지 표출
         let imageView = UIImageView(image: imageArray[row])
         imageView.frame = CGRect(x: 0, y: 0, width: 100, height: 150)
         
